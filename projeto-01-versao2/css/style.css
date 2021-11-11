@@ -1,0 +1,245 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: rgb(253, 242, 87);
+  font-family: 'Poppins', sans-serif;
+}
+
+#title-name {
+  text-decoration: underline;
+}
+
+.container {
+  width: 900px;
+  margin: 0% auto;
+  background-color: rgb(235, 129, 87);
+  box-shadow: 0px 8px 10px #888888;
+}
+
+.menu {
+  border-bottom: 0.5px solid black;
+}
+
+.menu #navbar {
+  margin-left: 1em;
+  text-align: center;
+}
+
+.menu #navbar ul {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.menu #navbar ul li {
+  padding: 1em 1em;
+}
+
+.menu #navbar ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 1em;
+  margin-left: -30px;
+}
+
+.menu #navbar ul li a:hover {
+  background-color: red;
+  color: white;
+  transition: 0.3s;
+}
+
+.login-ul li {
+  margin-left: 16.5em;
+  text-align: right;
+}
+
+#section-1 {
+  width: 400px;
+  float: left;
+  padding: 20px;
+  margin-left: 6px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#section-1 h3 {
+  font-size: larger;
+}
+
+#section-1 #pedir {
+  padding-top: 2em;
+}
+
+#section-1 #pedir h3 {
+  font-size: 5em;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 0.5em;
+  font-weight: 100;
+  text-shadow: 7px 10px 3px #888888;
+}
+
+#but-pedir {
+  padding: 1em;
+}
+
+#but-pedir button {
+  box-shadow: 0px 5px 8px #888888;
+  padding: 0.5em;
+  background-color: rgb(255, 135, 75);
+  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+}
+
+#section-2 {
+  width: 400px;
+  float: right;
+  padding: 20px;
+  margin-right: 6px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+footer {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 20px;
+  clear: both;
+  text-align: center;
+}
+
+#sociais a {
+  padding-right: 1em;
+}
+
+/* SOBRE NOS */
+
+#section-3 {
+  float: left;
+  text-align: center;
+}
+
+#section-4 {
+  padding-left: 460px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+#text-sobre {
+  text-align: justify;
+}
+
+/* CARDAPIO */
+
+#pedir-agora {
+  width: 250px;
+  margin: 0% auto;
+  text-align: center;
+}
+
+#title-pedido {
+  display: inline-flex;
+}
+
+#title-pedido h2 {
+  padding-top: 0.3em;
+}
+
+#imagens {
+  width: 800px;
+  height: 1000px;
+  padding: 15px;
+  margin: 0% auto;
+  margin-bottom: 15px;
+}
+
+.img-lanche {
+  margin: 10px 5px;
+  box-shadow: 0px 8px 12px #888888;
+  padding: 10px;
+  text-align: center;
+  width: 350px;
+  background-color: tomato;
+}
+
+#lado1 {
+  float: left;
+}
+
+#lado2 {
+  float: right;
+}
+
+/* CONTATO */
+
+#section-form {
+  width: 600px;
+
+  margin: 0% auto;
+  padding-top: 2em;
+}
+
+#form-contato {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+#coment {
+  padding: 0.5em;
+  resize: none;
+}
+
+/* LOGIN */
+#login {
+  margin: 0% auto;
+  width: 200px;
+  padding: 0.5em 1em;
+  text-align: center;
+  margin-top: 3em;
+}
+
+#login h2 {
+  padding-bottom: 1em;
+}
+
+/* CADASTRO */
+#section-cliente {
+  margin: 0% auto;
+
+  width: 600px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+#section-cliente #table-adiciona input {
+  margin-right: 2em;
+}
+
+#section-cliente #table-mostra {
+  margin: 20px 0 0 0;
+  width: 100%;
+  border-top: 1px solid #888;
+  border-right: 1px solid #888;
+}
+
+#section-cliente #table-mostra th {
+  background: #ddd;
+  padding: 5px 0 5px 0;
+  font: 12pt 'arial';
+  border-left: 1px solid #888;
+  border-bottom: 1px solid #888;
+}
+
+/* EDITA */
+#section-edita {
+  padding-top: 1em;
+  text-align: center;
+  margin: 0% auto;
+  width: 450px;
+}
+
+#section-edita td {
+  padding-right: 1em;
+}
